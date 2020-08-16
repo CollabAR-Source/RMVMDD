@@ -1,14 +1,7 @@
-# RMVMDD
-
-# Multi-view Multi-distortion Image Dataset (MVMDD)
-[![Website shields.io](https://img.shields.io/badge/python-3.6%2B-green)](http://shields.io/)  [![Website shields.io](https://img.shields.io/badge/numpy-1.16-yellow)](http://shields.io/) [![Website shields.io](https://img.shields.io/badge/opencv--python-4.1-lightgrey)](http://shields.io/) [![Website shields.io](https://img.shields.io/badge/scikit--image-0.16.2-blue)](http://shields.io/)
+# Real-world Multi-view Multi-distortion Image Dataset (RMVMDD)
 
 
-
-
-
-
-This repository contains download links and the introduction of Multi-view Multi-distortion Image Dataset (MVMDD) for IPSN 2020 paper ["CollabAR: Edge-assisted Collaborative Image Recognition for Mobile Augmented Reality"]() by [Zida Liu](daliu.github.io), [Guohao Lan](https://guohao.netlify.com/), Jovan Stojkovic, Yunfan Zhang, [Carlee Joe-Wong](https://www.andrew.cmu.edu/user/cjoewong/), and [Maria Gorlatova](https://maria.gorlatova.com/).
+This repository contains download links and the introduction of Real-world Multi-view Multi-distortion Image Dataset (RMVMDD) for TMC 2020 paper ["CollabAR: Edge-assisted Collaborative Image Recognition for Mobile Augmented Reality"]() by [Zida Liu](daliu.github.io), [Guohao Lan](https://guohao.netlify.com/), Jovan Stojkovic, Yunfan Zhang, [Carlee Joe-Wong](https://www.andrew.cmu.edu/user/cjoewong/), and [Maria Gorlatova](https://maria.gorlatova.com/).
 
 If you have any questions on this repository or the related paper, please create an issue or send me an email.
 Email address: zida.liu AT duke.edu.
@@ -16,10 +9,7 @@ Email address: zida.liu AT duke.edu.
 **Summary**:
 
 * [Dataset Information](#1)
-* [Download MVMDD Dataset](#2)
-* [CollabAR Demo](#3)
-* [Citation](#4)
-* [Acknowledgments](#5)
+* [Download RMVMDD Dataset](#2)
 
 ## 1. <span id="1">Dataset Information</span>
 To study the impact of image distortion on multi-view augmented reality systems, we created the Multi-View Multi-Distortion Image Dataset (MVMDD). The dataset includes a pristine Multi-view image set (i.e., clear images without distortion) and an augmented distortion Multi-view image set. The detailed information about the collected MVMDD dataset is presented below.
@@ -116,17 +106,3 @@ The images are named in the format of ***(instance number) _ (view number) _ (di
 - **(distance number)** corresponds to one of the **six distances**.
 
 For instance, the image with name *'bag1_view1_distance1.jpg'* corresponds to the image of *instance #1* of *bag* captured at *distance1* from *view1*.
-
-## 5. <span id="5">Acknowledgments</span>
-
-The authors of this dataset are [Zida Liu](https://zidaliu.github.io/), Juan Blanco, [Guohao Lan](https://guohao.netlify.com/), and [Maria Gorlatova](https://maria.gorlatova.com/). This work was done in the [Intelligent Interactive Internet of Things Lab](https://maria.gorlatova.com/) at [Duke University](https://www.duke.edu/).
-
-Contact Information of the contributors: 
-
-* zida.liu AT duke.edu
-* juanmblanco AT me.com
-* guohao.lan AT duke.edu
-* maria.gorlatova AT duke.edu
-
-This work is supported by the Lord Foundation of North Carolina and by NSF awards CSR-1903136 and CNS-1908051.
-

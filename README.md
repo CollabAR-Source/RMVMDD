@@ -16,7 +16,7 @@ To study the impact of image distortion on multi-view augmented reality systems,
 
 
 ### 1.1 Pristine image set
-The pristine images are collected using a commodity Nokia 7.1 smartphone. The resolution of the original images is 3024x4032. **Six categories** of everyday objects are considered: *cup, phone, bottle, book, bag,* and *pen*. Each category has **six instances**. For each instance, images are taken from **six different views** (six different angles with a 60 angle difference between any two adjacent views), **two different background complexity** levels (a clear white table background and a noisy background containing other non-target objects), and **three distances**. We adjust the distance between the camera and the object such that the sizes of the object in the images are different. For the three distances, the object occupies approximately the whole, half, and one-tenth of the total area of the image. The details are summarized in the table below:
+The pristine images are collected using a commodity Nokia 7.1 smartphone. The resolution of the original images is 3024x4032 and that of resized image is 224×244. **Six categories** of everyday objects are considered: *cup, box, bottle, book, pen,* and *shoes*. Each category has **six instances**. For each instance, images are taken from **six different views** (six different angles with a 60 angle difference between any two adjacent views), and **three distances**. We adjust the distance between the camera and the object such that the sizes of the object in the images are different. For the three distances, the object occupies approximately the whole, half, and one-tenth of the total area of the image. The details are summarized in the table below:
 
  
  
@@ -26,9 +26,6 @@ The pristine images are collected using a commodity Nokia 7.1 smartphone. The re
     </tr>
     <tr>
         <td>Number of views</td><td>6</td>
-    </tr>
-    <tr>
-        <td>Background complexity</td><td>2</td>
     </tr>
     <tr>
         <td>Size of object in an image</td><td>3</td>

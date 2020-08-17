@@ -85,3 +85,5 @@ For each type of distortion, **three distortion levels** are considered. We are 
 
 
 ### 2.1 Hierarchical structure of the pristine image set
+### 2.2 Hierarchical structure of the single distortion Multi-view image sets
+### 2.3 Hierarchical structure of the multiple distortion Multi-view image sets

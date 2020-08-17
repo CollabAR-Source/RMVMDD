@@ -52,15 +52,17 @@ For each type of distortion, **three distortion levels** are considered. We are 
   - Bae, Soonmin, and Frédo Durand. "Defocus magnification." In Computer Graphics Forum, vol. 26, no. 3, pp. 571-579. Oxford, UK: Blackwell Publishing Ltd, 2007.
 - Noise:
   - Xu, Jun, Hui Li, Zhetong Liang, David Zhang, and Lei Zhang. "Real-world noisy image denoising: A new benchmark." arXiv preprint arXiv:1804.02603 (2018).
-  
+
+#### Examples of single distorted images in the dataset:
+<img src="https://github.com/CollabAR-Source/MVMDD/blob/master/distorted_images.png" width = "700" height = "400" hspace="70" align=center />
+
 ### 1.3 Multiple distortion Multi-view image sets
 We collect four multiple distortion Multi-view image sets. In each set, images contains a certain combination of multiple distortions and the set has the same category, instance and view settings as the pristine imageset. Specifically, **four types of image distortion** are considered: *noise  +  motion blur,  Gaussian blur + noise,  Gaussian blur + motion blur*, and *Gaussian blur + noise + motion blur*. 
 
 For each type of distortion, **three distortion levels** are considered. We are using the same methods for collecting the single distortion Multi-view image sets to collect those distorted images.
 
-#### Examples of augmented distorted images in the dataset:
+#### Examples of multiple distorted images in the dataset:
 <img src="https://github.com/CollabAR-Source/MVMDD/blob/master/distorted_images.png" width = "700" height = "400" hspace="70" align=center />
-The codes and the procedure for generating the augmented image set are introduced in section 2.2. below
 
 ## 2. <span id="2">Download RMVMDD Dataset</span>
 + The pristine image set can be downloaded via https://1drv.ms/u/s!Aqyf-lNI69G1hBi5mn31KDNzuw2u?e=qxX2gs

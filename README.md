@@ -54,7 +54,8 @@ For each type of distortion, **three distortion levels** are considered. We are 
   - Xu, Jun, Hui Li, Zhetong Liang, David Zhang, and Lei Zhang. "Real-world noisy image denoising: A new benchmark." arXiv preprint arXiv:1804.02603 (2018).
 
 #### Examples of single distorted images in the dataset:
-<img src="https://github.com/CollabAR-Source/MVMDD/blob/master/distorted_images.png" width = "700" height = "400" hspace="70" align=center />
+<img src="https://github.com/CollabAR-Source/RMVMDD/blob/master/SingleDistortion.pdf" width="600">
+
 
 ### 1.3 Multiple distortion Multi-view image sets
 We collect four multiple distortion Multi-view image sets. In each set, images contains a certain combination of multiple distortions and the set has the same category, instance and view settings as the pristine imageset. Specifically, **four types of image distortion** are considered: *noise  +  motion blur,  Gaussian blur + noise,  Gaussian blur + motion blur*, and *Gaussian blur + noise + motion blur*. 

@@ -34,7 +34,7 @@ The pristine images are collected using a commodity Nokia 7.1 smartphone. The re
         <td>Number of instances</td><td>6</td>
     </tr>
     <tr>
-        <td><b>Total pristine images</b></td><td>6 x 6 x 2 x 3 x 6 = 1,296</td>
+        <td><b>Total pristine images</b></td><td>6 x 6 x 3 x 6 = 648</td>
     </tr>
 </table>
 

@@ -56,7 +56,7 @@ For each type of distortion, **three distortion levels** are considered. We are 
 ### 1.3 Multiple distortion Multi-view image sets
 We collect four multiple distortion Multi-view image sets. In each set, images contains a certain combination of multiple distortions and the set has the same category, instance and view settings as the pristine imageset. Specifically, **four types of image distortion** are considered: *noise  +  motion blur,  Gaussian blur + noise,  Gaussian blur + motion blur*, and *Gaussian blur + noise + motion blur*. 
 
-For each type of distortion, **three distortion levels** are considered. We are using the same methods as the single distortion Multi-view image sets to collect those distorted images.
+For each type of distortion, **three distortion levels** are considered. We are using the same methods for collecting the single distortion Multi-view image sets to collect those distorted images.
 
 #### Examples of augmented distorted images in the dataset:
 <img src="https://github.com/CollabAR-Source/MVMDD/blob/master/distorted_images.png" width = "700" height = "400" hspace="70" align=center />
@@ -64,13 +64,13 @@ The codes and the procedure for generating the augmented image set are introduce
 
 ## 2. <span id="2">Download MVMDD Dataset</span>
 + The pristine image set can be downloaded via https://1drv.ms/u/s!Aqyf-lNI69G1hBi5mn31KDNzuw2u?e=qxX2gs
-+ An augmented distortion image set can be downloaded via https://drive.google.com/file/d/1GHtqs2B3Unuhej-BnvZ2QbRCgCPULPvq/view?usp=sharing, It contains three different distortion levels of images for each distortion category. 
++ The single distortion Multi-view image sets can be downloaded via https://drive.google.com/file/d/1GHtqs2B3Unuhej-BnvZ2QbRCgCPULPvq/view?usp=sharing, It contains three different distortion levels of images for each distortion category. 
 
 | Distortion category | Distortion parameter | Level 1 | Level 2 | Level 3 |
 | ------ | ------ | ------ | ------ | ------ |
-| Motion blur | Blur kernel length | 10 | 20 | 30 |
+| Motion blur | Exposure  time   | 1/10 second | 1/8 second| 1/5 second |
 | Gaussian blur | Aperture size | 11 | 21 | 31 |
-| Gaussian noise | Variance | 0.01 | 0.02 | 0.03 |
+| Noise | Variance | 0.01 | 0.02 | 0.03 |
     
     
 + Data augmentation source code is provided for generating your own augmented image set.

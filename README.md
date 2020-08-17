@@ -62,49 +62,23 @@ For each type of distortion, **three distortion levels** are considered. We are 
 <img src="https://github.com/CollabAR-Source/MVMDD/blob/master/distorted_images.png" width = "700" height = "400" hspace="70" align=center />
 The codes and the procedure for generating the augmented image set are introduced in section 2.2. below
 
-## 2. <span id="2">Download MVMDD Dataset</span>
+## 2. <span id="2">Download RMVMDD Dataset</span>
 + The pristine image set can be downloaded via https://1drv.ms/u/s!Aqyf-lNI69G1hBi5mn31KDNzuw2u?e=qxX2gs
 + The single distortion Multi-view image sets can be downloaded via https://drive.google.com/file/d/1GHtqs2B3Unuhej-BnvZ2QbRCgCPULPvq/view?usp=sharing, It contains three different distortion levels of images for each distortion category. 
-
 | Distortion category | Distortion parameter | Level 1 | Level 2 | Level 3 |
 | ------ | ------ | ------ | ------ | ------ |
 | Motion blur | Exposure  time   | 1/10 second | 1/8 second| 1/5 second |
-| Gaussian blur | Aperture size | 11 | 21 | 31 |
-| Noise | Variance | 0.01 | 0.02 | 0.03 |
+| Gaussian blur | Focal length | 10 cm | 12 cm | 15 cm |
+| Noise | ISO | 400 | 800 | 1600 |
     
-    
-+ Data augmentation source code is provided for generating your own augmented image set.
++ The multiple distortion Multi-view image sets can be downloaded via https://drive.google.com/file/d/1GHtqs2B3Unuhej-BnvZ2QbRCgCPULPvq/view?usp=sharing, It contains three different distortion levels of images for each distortion conbination. 
+
+| Distortion category | Distortion parameter | Level 1 | Level 2 | Level 3 |
+| ------ | ------ | ------ | ------ | ------ |
+| Noise  +  Motion blur| ISO / Exposure time   | 400 / 1/10 second | 800 / 1/8 second| 1600 / 1/5 second |
+| Gaussian blur + Noise | Focal length / ISO | 10 cm / 400 | 12 cm / 800 | 15 cm / 1600 |
+| Gaussian blur + Noise + Motion blur| Focal length / ISO / Exposure time| 10 cm / 400 / 1/10 second | 12 cm / 800 / 1/8 second | 15 cm / 1600 / 1/5 second |
+ 
 
 
 ### 2.1 Hierarchical structure of the pristine image set
-
-The pristine image set follows a hierarchical file structure shown below. The two sub-folders, ***Clear_Background*** and ***Complex_Background***, correspond to the two background complexities. In each of the sub-folders, there are six folders that correspond to the ***six object categories***. 
-
-- The tree structure of the dataset folder:
-```
-MVMDD
-└───Clear_Background
-│   │
-│   └───bags
-│       │   bag1_view1_distance1.jpg
-│       │   bag1_view1_distance2.jpg
-│       │   ...
-│   └───books
-│   └───bottles
-│   └───cups
-│   └───pens
-│   └───phones
-│   
-└───Complex_Background
-│   │
-│   └───bags
-│   └───books
-│   └───bottles
-|   ...
-```
-The images are named in the format of ***(instance number) _ (view number) _ (distance number).jpg***, where:
-- **(instance number)** corresponds to one of the **six instances**, 
-- **(view number)** corresponds to one of the **six views**,
-- **(distance number)** corresponds to one of the **six distances**.
-
-For instance, the image with name *'bag1_view1_distance1.jpg'* corresponds to the image of *instance #1* of *bag* captured at *distance1* from *view1*.

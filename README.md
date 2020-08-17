@@ -52,6 +52,18 @@ For each type of distortion, **three distortion levels** are considered. We are 
   - Bae, Soonmin, and Frédo Durand. "Defocus magnification." In Computer Graphics Forum, vol. 26, no. 3, pp. 571-579. Oxford, UK: Blackwell Publishing Ltd, 2007.
 - Noise:
   - Xu, Jun, Hui Li, Zhetong Liang, David Zhang, and Lei Zhang. "Real-world noisy image denoising: A new benchmark." arXiv preprint arXiv:1804.02603 (2018).
+  
+### 1.3 Multiple distortion Multi-view image sets
+We collect three single distortion Multi-view image sets with different distortion types. For set, it contains a certain image distortion type and has the same category, instance and view settings as the pristine imageset. Specifically, **three types of image distortion** are considered: *Motion blur, Gaussian blur,* and *Noise*. Smartphones or the head-mounted AR set cameras frequently contain motion blur caused by the motion of the user. Gaussian blur appears when the camera is de-focusing or the image is taken underwater or in a foggy environment. And Noise is inevitable in images because of poor illumination conditions, digital zooming, and the use of a low-quality image sensor.
+
+For each type of distortion, **three distortion levels** are considered. We are using the following methods to collect those distorted images.
+
+- Motion blur:
+  - Nah, Seungjun, Tae Hyun Kim, and Kyoung Mu Lee. "Deep multi-scale convolutional neural network for dynamic scene deblurring." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 3883-3891. 2017.
+- Gaussian blur:
+  - Bae, Soonmin, and Frédo Durand. "Defocus magnification." In Computer Graphics Forum, vol. 26, no. 3, pp. 571-579. Oxford, UK: Blackwell Publishing Ltd, 2007.
+- Noise:
+  - Xu, Jun, Hui Li, Zhetong Liang, David Zhang, and Lei Zhang. "Real-world noisy image denoising: A new benchmark." arXiv preprint arXiv:1804.02603 (2018).
 
 #### Examples of augmented distorted images in the dataset:
 <img src="https://github.com/CollabAR-Source/MVMDD/blob/master/distorted_images.png" width = "700" height = "400" hspace="70" align=center />

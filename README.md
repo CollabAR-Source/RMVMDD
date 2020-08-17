@@ -87,3 +87,21 @@ For each type of distortion, **three distortion levels** are considered. We are 
 ### 2.1 Hierarchical structure of the pristine image set
 ### 2.2 Hierarchical structure of the single distortion Multi-view image sets
 ### 2.3 Hierarchical structure of the multiple distortion Multi-view image sets
+
+
+## 4. <span id="4">Citation</span>
+
+Please cite the following paper in your publications if the dataset helps your research.
+
+  
+## 5. <span id="5">Acknowledgments</span>
+
+The authors of this dataset are [Zida Liu](https://zidaliu.github.io/), [Guohao Lan](https://guohao.netlify.com/), and [Maria Gorlatova](https://maria.gorlatova.com/). This work was done in the [Intelligent Interactive Internet of Things Lab](https://maria.gorlatova.com/) at [Duke University](https://www.duke.edu/).
+
+Contact Information of the contributors: 
+
+* zida.liu AT duke.edu
+* guohao.lan AT duke.edu
+* maria.gorlatova AT duke.edu
+
+This work is supported by the Lord Foundation of North Carolina and by NSF awards CSR-1903136 and CNS-1908051.

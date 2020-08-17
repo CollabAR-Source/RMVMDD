@@ -76,9 +76,9 @@ The codes and the procedure for generating the augmented image set are introduce
 
 | Distortion category | Distortion parameter | Level 1 | Level 2 | Level 3 |
 | ------ | ------ | ------ | ------ | ------ |
-| Noise  +  Motion blur| ISO / Exposure time   | 400 / 1/10 second | 800 / 1/8 second| 1600 / 1/5 second |
-| Gaussian blur + Noise | Focal length / ISO | 10 cm / 400 | 12 cm / 800 | 15 cm / 1600 |
-| Gaussian blur + Noise + Motion blur| Focal length / ISO / Exposure time| 10 cm / 400 / 1/10 second | 12 cm / 800 / 1/8 second | 15 cm / 1600 / 1/5 second |
+| Noise  +  Motion blur| ISO , Exposure time   | 400 , 1/10 second | 800 , 1/8 second| 1600 , 1/5 second |
+| Gaussian blur + Noise | Focal length , ISO | 10 cm , 400 | 12 cm , 800 | 15 cm , 1600 |
+| Gaussian blur + Noise + Motion blur| Focal length , ISO , Exposure time| 10 cm , 400 , 1/10 second | 12 cm , 800 , 1/8 second | 15 cm , 1600 , 1/5 second |
  
 
 

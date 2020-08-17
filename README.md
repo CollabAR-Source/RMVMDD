@@ -12,7 +12,7 @@ Email address: zida.liu AT duke.edu.
 * [Download RMVMDD Dataset](#2)
 
 ## 1. <span id="1">Dataset Information</span>
-To study the impact of image distortion on multi-view augmented reality systems, we created the Multi-View Multi-Distortion Image Dataset (MVMDD). The dataset includes a pristine Multi-view image set (i.e., clear images without distortion) and an augmented distortion Multi-view image set. The detailed information about the collected MVMDD dataset is presented below.
+To study the impact of image distortion on multi-view augmented reality systems, we created the Real-world Multi-View Multi-Distortion Image Dataset (RMVMDD). The dataset includes a pristine Multi-view image set (i.e., clear images without distortion) and three single distortion Multi-view image sets (i.e., each image contains only one distortion type) and four . The detailed information about the collected MVMDD dataset is presented below.
 
 
 ### 1.1 Pristine image set

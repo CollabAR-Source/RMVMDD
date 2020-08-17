@@ -39,7 +39,7 @@ The pristine images are collected using a commodity Nokia 7.1 smartphone. The re
 </table>
 
 #### Examples of pristine images in the dataset:
-![image](https://github.com/CollabAR-Source/MVMDD/blob/master/example.PNG) 
+![image](https://github.com/CollabAR-Source/RMVMDD/blob/master/pristine image.PNG) 
 
 ### 1.2 Augmented image set
 We apply data augmentation techniques on the pristine image set to generate a new augmented image set. Specifically, **three types of image distortion** are considered: *Motion blur, Gaussian blur,* and *Gaussian noise*. Smartphones or the head-mounted AR set cameras frequently contain motion blur caused by the motion of the user. Gaussian blur appears when the camera is de-focusing or the image is taken underwater or in a foggy environment. And Gaussian noise is inevitable in images because of poor illumination conditions, digital zooming, and the use of a low-quality image sensor.

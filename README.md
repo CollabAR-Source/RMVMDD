@@ -65,9 +65,10 @@ The codes and the procedure for generating the augmented image set are introduce
 ## 2. <span id="2">Download RMVMDD Dataset</span>
 + The pristine image set can be downloaded via https://1drv.ms/u/s!Aqyf-lNI69G1hBi5mn31KDNzuw2u?e=qxX2gs
 + The single distortion Multi-view image sets can be downloaded via https://drive.google.com/file/d/1GHtqs2B3Unuhej-BnvZ2QbRCgCPULPvq/view?usp=sharing, It contains three different distortion levels of images for each distortion category. 
+
 | Distortion category | Distortion parameter | Level 1 | Level 2 | Level 3 |
 | ------ | ------ | ------ | ------ | ------ |
-| Motion blur | Exposure  time   | 1/10 second | 1/8 second| 1/5 second |
+| Motion blur | Exposure  time| 1/10 second | 1/8 second| 1/5 second |
 | Gaussian blur | Focal length | 10 cm | 12 cm | 15 cm |
 | Noise | ISO | 400 | 800 | 1600 |
     

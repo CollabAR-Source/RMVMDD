@@ -54,7 +54,7 @@ For each type of distortion, **three distortion levels** are considered. We are 
   - Xu, Jun, Hui Li, Zhetong Liang, David Zhang, and Lei Zhang. "Real-world noisy image denoising: A new benchmark." arXiv preprint arXiv:1804.02603 (2018).
 
 #### Examples of single distorted images in the dataset:
-<img src="https://github.com/CollabAR-Source/RMVMDD/blob/master/SingleDistortion.pdf" width="600">
+<img src="https://github.com/CollabAR-Source/RMVMDD/blob/master/SingleDistortion.jpg" width="600">
 
 
 ### 1.3 Multiple distortion Multi-view image sets
@@ -62,8 +62,6 @@ We collect four multiple distortion Multi-view image sets. In each set, images c
 
 For each type of distortion, **three distortion levels** are considered. We are using the same methods for collecting the single distortion Multi-view image sets to collect those distorted images.
 
-#### Examples of multiple distorted images in the dataset:
-<img src="https://github.com/CollabAR-Source/MVMDD/blob/master/distorted_images.png" width = "700" height = "400" hspace="70" align=center />
 
 ## 2. <span id="2">Download RMVMDD Dataset</span>
 + The pristine image set can be downloaded via https://1drv.ms/u/s!Aqyf-lNI69G1hBi5mn31KDNzuw2u?e=qxX2gs

@@ -41,16 +41,16 @@ The pristine images are collected using a commodity Nokia 7.1 smartphone. The re
 #### Examples of pristine images in the dataset:
 <img src="https://github.com/CollabAR-Source/RMVMDD/blob/master/pristine%20image.PNG" width="600">
 
-### 1.2 Augmented image set
-We apply data augmentation techniques on the pristine image set to generate a new augmented image set. Specifically, **three types of image distortion** are considered: *Motion blur, Gaussian blur,* and *Gaussian noise*. Smartphones or the head-mounted AR set cameras frequently contain motion blur caused by the motion of the user. Gaussian blur appears when the camera is de-focusing or the image is taken underwater or in a foggy environment. And Gaussian noise is inevitable in images because of poor illumination conditions, digital zooming, and the use of a low-quality image sensor.
+### 1.2 Single distortion Multi-view image sets
+We collect three single distortion Multi-view image sets with different distortion types. For set, it contains a certain image distortion type and has the same category, instance and view settings as the pristine imageset. Specifically, **three types of image distortion** are considered: *Motion blur, Gaussian blur,* and *Noise*. Smartphones or the head-mounted AR set cameras frequently contain motion blur caused by the motion of the user. Gaussian blur appears when the camera is de-focusing or the image is taken underwater or in a foggy environment. And Noise is inevitable in images because of poor illumination conditions, digital zooming, and the use of a low-quality image sensor.
 
-For each type of distortion, **three distortion levels** are considered. We are using the following models to augment the images:
+For each type of distortion, **three distortion levels** are considered. We are using the following methods to collect those distorted images.
 
 - Motion blur:
   - Sun, Jian, Wenfei Cao, Zongben Xu, and Jean Ponce. "Learning a convolutional neural network for non-uniform motion blur removal." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 769-777. 2015.
 - Gaussian blur:
   - Flusser, Jan, Sajad Farokhi, Cyril Höschl, Tomáš Suk, Barbara Zitová, and Matteo Pedone. "Recognition of images degraded by Gaussian blur." IEEE transactions on Image Processing 25, no. 2 (2015): 790-806.
-- Gaussian noise:
+- Noise:
   - Liu, Wei, and Weisi Lin. "Additive white Gaussian noise level estimation in SVD domain for images." IEEE Transactions on Image processing 22, no. 3 (2012): 872-883.
 
 #### Examples of augmented distorted images in the dataset:

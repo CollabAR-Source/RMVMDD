@@ -54,7 +54,7 @@ For each type of distortion, **three distortion levels** are considered. We are 
   - Xu, Jun, Hui Li, Zhetong Liang, David Zhang, and Lei Zhang. "Real-world noisy image denoising: A new benchmark." arXiv preprint arXiv:1804.02603 (2018).
 
 #### Examples of single distorted images in the dataset:
-<img src="https://github.com/CollabAR-Source/RMVMDD/blob/master/singledistortion.jpg" width="700">
+<img src="https://github.com/CollabAR-Source/RMVMDD/blob/master/singledistortion.jpg" width="620">
 
 
 ### 1.3 Multiple distortion Multi-view image sets

@@ -103,6 +103,35 @@ Pristine Image
 │   └───shoe
 ```
 ### 2.2 Hierarchical structure of the single distortion Multi-view image sets
+```
+Single Distortion
+└───Motion blur image
+│   │
+│   └───book
+│       │   book1_view0_distance0.jpg
+│       │   book1_view0_distance1.jpg
+│       │   book1_view0_distance2.jpg
+│       │   ...
+│   └───bottle
+│   └───box
+│   └───cup
+│   └───pen
+│   └───shoe
+│   
+└───Gaussian blur image
+│   │
+│   └───bags
+│   └───books
+│   └───bottles
+|   ...
+|
+└───Noise image
+│   │
+│   └───bags
+│   └───books
+│   └───bottles
+|   ...
+```
 ### 2.3 Hierarchical structure of the multiple distortion Multi-view image sets
 
 

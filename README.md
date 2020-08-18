@@ -125,19 +125,52 @@ Single Distortion
 │   
 └───Gaussian blur image
 │   │
-│   └───bags
-│   └───books
-│   └───bottles
+│   └───book
+│   └───bottle
+│   └───box
 |   ...
 |
 └───Noise image
 │   │
-│   └───bags
-│   └───books
-│   └───bottles
+│   └───book
+│   └───bottle
+│   └───box
 |   ...
 ```
 ### 2.3 Hierarchical structure of the multiple distortion Multi-view image sets
+
+The multiple distortion Multi-view image sets follows a hierarchical file structure shown below. The images are named in the format of ***(instance number) _ (view number) _ (level number).jpg***, where:
+- **(instance number)** corresponds to one of the **six instances**, 
+- **(view number)** corresponds to one of the **six views**,
+- **(level number)** corresponds to one of the **three levels**.
+
+```
+Multiple Distortion
+└───M_N
+│   │
+│   └───book
+│       │   book1_view0_level0.jpg
+│       │   book1_view0_level1.jpg
+│       │   book1_view0_level2.jpg
+│       │   ...
+│   └───bottle
+│   └───box
+│   └───cup
+│   └───pen
+│   └───shoe
+│   
+└───G_N
+│   │
+│   └───book
+│   └───bottle
+│   └───box
+|   ...
+|
+└───M_G
+│ 
+└───M_G_N
+│ 
+```
 
 
 ## 4. <span id="4">Citation</span>

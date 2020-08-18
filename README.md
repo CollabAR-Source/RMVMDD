@@ -103,7 +103,7 @@ Pristine Image
 │   └───shoe
 ```
 ### 2.2 Hierarchical structure of the single distortion Multi-view image sets
-The single distortion Multi-view image sets follows a hierarchical file structure shown below. The images are named in the format of ***(instance number) _ (view number) _ (level number).jpg***, where:
+The single distortion Multi-view image sets follows a hierarchical file structure shown below. The three sub-folders, ***Motion blur image***, ***Gaussian blur image***, and ***Noise image*** correspond to the three distortion types. The images are named in the format of ***(instance number) _ (view number) _ (level number).jpg***, where:
 - **(instance number)** corresponds to one of the **six instances**, 
 - **(view number)** corresponds to one of the **six views**,
 - **(level number)** corresponds to one of the **three levels**.
@@ -139,7 +139,7 @@ Single Distortion
 ```
 ### 2.3 Hierarchical structure of the multiple distortion Multi-view image sets
 
-The multiple distortion Multi-view image sets follows a hierarchical file structure shown below. The images are named in the format of ***(instance number) _ (view number) _ (level number).jpg***, where:
+The multiple distortion Multi-view image sets follows a hierarchical file structure shown below. The four sub-folders, ***M_N(Motion blur + Noise)***, ***G_N(Gaussian blur+Noise)***, ***M_G(Motion blur + Gaussian blur)*** and ***M_G_N(Motion blur + Gaussian blur + Noise)*** correspond to the four distortion conbinations. The images are named in the format of ***(instance number) _ (view number) _ (level number).jpg***, where:
 - **(instance number)** corresponds to one of the **six instances**, 
 - **(view number)** corresponds to one of the **six views**,
 - **(level number)** corresponds to one of the **three levels**.
@@ -169,7 +169,7 @@ Multiple Distortion
 └───M_G
 │ 
 └───M_G_N
-│ 
+|   ...
 ```
 
 

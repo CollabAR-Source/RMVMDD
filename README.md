@@ -84,6 +84,24 @@ For each type of distortion, **three distortion levels** are considered. We are 
 
 
 ### 2.1 Hierarchical structure of the pristine image set
+The pristine image set follows a hierarchical file structure shown below. The images are named in the format of ***(instance number) _ (view number) _ (distance number).jpg***, where:
+- **(instance number)** corresponds to one of the **six instances**, 
+- **(view number)** corresponds to one of the **six views**,
+- **(distance number)** corresponds to one of the **six distances**.
+```
+Pristine Image
+│   │
+│   └───book
+│       │   book1_view0_distance0.jpg
+│       │   book1_view0_distance1.jpg
+│       │   book1_view0_distance2.jpg
+│       │   ...
+│   └───bottle
+│   └───box
+│   └───cup
+│   └───pen
+│   └───shoe
+```
 ### 2.2 Hierarchical structure of the single distortion Multi-view image sets
 ### 2.3 Hierarchical structure of the multiple distortion Multi-view image sets
 

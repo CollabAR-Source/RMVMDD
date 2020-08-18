@@ -60,7 +60,7 @@ For each type of distortion, **three distortion levels** are considered. We are 
 ### 1.3 Multiple distortion Multi-view image sets
 We collect four multiple distortion Multi-view image sets. In each set, images contains a certain combination of multiple distortions and the set has the same category, instance and view settings as the pristine imageset. Specifically, **four types of image distortion** are considered: *noise  +  motion blur,  Gaussian blur + noise,  Gaussian blur + motion blur*, and *Gaussian blur + noise + motion blur*. 
 
-For each type of distortion, **three distortion levels** are considered. We are using the same methods for collecting the single distortion Multi-view image sets to collect those distorted images.
+For each type of distortion, **three distortion levels** are considered. We are using the same methods of collecting the single distortion Multi-view image sets to collect those distorted images.
 
 
 ## 2. <span id="2">Download RMVMDD Dataset</span>

@@ -10,6 +10,8 @@ Email address: zida.liu AT duke.edu.
 
 * [Dataset Information](#1)
 * [Download RMVMDD Dataset](#2)
+* [Citation](#3)
+* [Acknowledgments](#4)
 
 ## 1. <span id="1">Dataset Information</span>
 To study the impact of image distortion on multi-view augmented reality systems, we created the Real-world Multi-View Multi-Distortion Image Dataset (RMVMDD). The dataset includes a pristine Multi-view image set (i.e., clear images without distortion) and three single distortion Multi-view image sets (i.e., each image contains only one distortion type) and four multiple distortion Multi-view image sets (i.e., each image contains multiple distortion types). The detailed information about the collected RMVMDD dataset is presented below.
@@ -173,12 +175,12 @@ Multiple Distortion
 ```
 
 
-## 4. <span id="4">Citation</span>
+## 3. <span id="4">Citation</span>
 
 Please cite the following paper in your publications if the dataset helps your research.
 
   
-## 5. <span id="5">Acknowledgments</span>
+## 4. <span id="5">Acknowledgments</span>
 
 The authors of this dataset are [Zida Liu](https://zidaliu.github.io/), [Guohao Lan](https://guohao.netlify.com/), and [Maria Gorlatova](https://maria.gorlatova.com/). This work was done in the [Intelligent Interactive Internet of Things Lab](https://maria.gorlatova.com/) at [Duke University](https://www.duke.edu/).
 

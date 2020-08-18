@@ -64,8 +64,8 @@ For each type of distortion, **three distortion levels** are considered. We are 
 
 
 ## 2. <span id="2">Download RMVMDD Dataset</span>
-+ The pristine image set can be downloaded via 
-+ The single distortion Multi-view image sets can be downloaded via , It contains three different distortion levels of images for each distortion category. 
++ The pristine image set can be downloaded via https://duke.box.com/s/93vivdc6pxzvy8l7qtpj8prho1qetx19.
++ The single distortion Multi-view image sets can be downloaded via https://duke.box.com/s/oty875wk0elbz5ablf7q8bx6yyecsmbq, It contains three different distortion levels of images for each distortion category. 
 
 | Distortion category | Distortion parameter | Level 1 | Level 2 | Level 3 |
 | ------ | ------ | ------ | ------ | ------ |
@@ -73,7 +73,7 @@ For each type of distortion, **three distortion levels** are considered. We are 
 | Gaussian blur | Focal length | 10 cm | 12 cm | 15 cm |
 | Noise | ISO | 400 | 800 | 1600 |
     
-+ The multiple distortion Multi-view image sets can be downloaded via , It contains three different distortion levels of images for each distortion conbination. 
++ The multiple distortion Multi-view image sets can be downloaded via https://duke.box.com/s/hfauq3uu9r8f03d2d2tetuduyzqjhpwx, It contains three different distortion levels of images for each distortion conbination. 
 
 | Distortion category | Distortion parameter | Level 1 | Level 2 | Level 3 |
 | ------ | ------ | ------ | ------ | ------ |

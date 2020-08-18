@@ -103,14 +103,19 @@ Pristine Image
 │   └───shoe
 ```
 ### 2.2 Hierarchical structure of the single distortion Multi-view image sets
+The single distortion Multi-view image sets follows a hierarchical file structure shown below. The images are named in the format of ***(instance number) _ (view number) _ (level number).jpg***, where:
+- **(instance number)** corresponds to one of the **six instances**, 
+- **(view number)** corresponds to one of the **six views**,
+- **(level number)** corresponds to one of the **three levels**.
+
 ```
 Single Distortion
 └───Motion blur image
 │   │
 │   └───book
-│       │   book1_view0_distance0.jpg
-│       │   book1_view0_distance1.jpg
-│       │   book1_view0_distance2.jpg
+│       │   book1_view0_level0.jpg
+│       │   book1_view0_level1.jpg
+│       │   book1_view0_level2.jpg
 │       │   ...
 │   └───bottle
 │   └───box

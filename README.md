@@ -1,7 +1,7 @@
 # Real-world Multi-view Multi-distortion Image Dataset (RMVMDD)
 
 
-This repository contains download links and the introduction of Real-world Multi-view Multi-distortion Image Dataset (RMVMDD) for TMC 2020 paper ["CollabAR: Edge-assisted Collaborative Image Recognition for Mobile Augmented Reality"]() by [Zida Liu](daliu.github.io), [Guohao Lan](https://guohao.netlify.com/), Jovan Stojkovic, Yunfan Zhang, [Carlee Joe-Wong](https://www.andrew.cmu.edu/user/cjoewong/), and [Maria Gorlatova](https://maria.gorlatova.com/).
+This repository contains download links and the introduction of Real-world Multi-view Multi-distortion Image Dataset (RMVMDD) for paper ["Edge-assisted Collaborative Image Recognition for Mobile Augmented Reality"]() by [Guohao Lan](https://guohao.netlify.com/), [Zida Liu](daliu.github.io), Yunfan Zhang, Tim Scargill, Jovan Stojkovic, [Carlee Joe-Wong](https://www.andrew.cmu.edu/user/cjoewong/), and [Maria Gorlatova](https://maria.gorlatova.com/).
 
 If you have any questions on this repository or the related paper, please create an issue or send me an email.
 Email address: zida.liu AT duke.edu.

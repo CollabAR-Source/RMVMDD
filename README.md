@@ -179,7 +179,17 @@ Multiple Distortion
 
 Please cite the following paper in your publications if the dataset helps your research.
 
-  
+@article{lan2021edge,
+  title={Edge-assisted Collaborative Image Recognition for Mobile Augmented Reality},
+  author={Lan, Guohao and Liu, Zida and Zhang, Yunfan and Scargill, Tim and Stojkovic, Jovan and Joe-Wong, Carlee and Gorlatova, Maria},
+  journal={ACM Transactions on Sensor Networks (TOSN)},
+  volume={18},
+  number={1},
+  pages={1--31},
+  year={2021},
+  publisher={ACM New York, NY}
+}
+ 
 ## 4. <span id="5">Acknowledgments</span>
 
 The authors of this dataset are [Zida Liu](https://zidaliu.github.io/), [Guohao Lan](https://guohao.netlify.com/), and [Maria Gorlatova](https://maria.gorlatova.com/). This work was done in the [Intelligent Interactive Internet of Things Lab](https://maria.gorlatova.com/) at [Duke University](https://www.duke.edu/).
@@ -190,4 +200,4 @@ Contact Information of the contributors:
 * guohao.lan AT duke.edu
 * maria.gorlatova AT duke.edu
 
-This work is supported by the Lord Foundation of North Carolina and by NSF awards CSR-1903136 and CNS-1908051.
+This work is supported by the Lord Foundation of North Carolina, the IBM Faculty Award, and by NSF awards CSR-1903136 and CNS-1908051.
